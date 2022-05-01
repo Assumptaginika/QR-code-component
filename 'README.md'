@@ -1,0 +1,112 @@
+# Frontend Mentor - QR code component solution
+
+# Frontend Mentor - QR code component
+
+This is a solution to the [git ](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects
+
+## Overview
+This is a Frontend Mento - Qr Code Compentent challenge were I tried to replicate the design of the QR code as much as possible.
+This project is built with HTML and CSS only. 
+Thanks for checking out this front-end coding challenge.
+
+
+
+### Screenshot
+![](./blob:moz-extension://7c7378cc-88d8-4267-b0ce-b8157bc2f5d7/48571cc8-2ca7-4728-8ea5-b8f4adb86428)
+
+
+
+### Links
+-Solution URL: https://github.com/Assumptaginika/-Frontend-Mentor---QR-code-component
+
+## My process
+First Step: I downloaded the challenge from Frontend Mentor website (www.frontendmentor.io)
+
+step 2: I extracted the file and opened it with VScode to start the challenge.
+
+step 3: I imported the image, created the div elements, the various classes using index.html.
+
+step 4: made use of CSS custom properties to create and align the body, container and text to the middle.body {
+    font-family: 'Outfit', sans-serif;
+    background-color:  hsl(212, 45%, 89%);
+    min-height: (100vh-1);
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+} 
+* {
+    margin:0%;
+    padding: 0%;
+}
+.container {
+    margin: auto;
+    max-width: 360px;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.card {
+    background-color: hsl(0, 0%, 100%);
+    padding: 11px;
+    border-radius: 18px;
+    text-align: center;
+
+}
+.card img {
+    width: 100%; 
+    border-radius: 12px; 
+}
+.text {
+    text-align: center; 
+}
+h2 {
+    color: hsl(218, 44%, 22%);
+    padding: 15px;
+}
+p {
+    color: hsl(220, 15%, 55%);
+    padding: 15px;
+}
+.attribution {
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+}
+    
+    
+@media (min-width: 500px)
+.container {
+    width: 400px;
+}
+
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+
+### What I learned
+
+I learned the right use of some of CSS properties such as margin, border-radius, padding and media querry and their functions. i got fmiliarised with creating CSS classes.
+
+<h1>Some HTML code I'm proud of is div; this is because it can be used to create some classes and made the styling easier </h1>
+
+.proud-of-this-css {i love all the css properties i used in this project. each and everyone of them have its own peculiarity and all of them contriuted greatly in making the project a success.
+  
+### Continued development
+
+I will continue focusing on the use of display flex and @media. i have not completely understand the function and its application.
+
+
+### Useful resources
+
+- [ resource 1:https://www.w3schools.com. this helped me in understanding the use of borders, margins, padding and border-radius as well as it application.  
+
+## Author
+
+- Website - [Ozoude Assumpta Ginika](https://www.linkedin.com/in/assumpta-ozoude-547428222/)
+- Frontend Mentor - [@Assumptaginika](https://www.frontendmentor.io/profile/Assumptaginika)
+- Twitter - [@GinikaOzoude](https://twitter.com/ginikaozoude)
+
+## Acknowledgments
+
+I want to use this medium to acknowledge Lilian Umeakunne-Jonathan for being an inspiration to me. i will also appreciate my darling husband for his unending support and motivation throughout this journey and beyond.
